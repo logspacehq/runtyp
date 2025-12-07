@@ -19,7 +19,8 @@ Lightning-fast, zero-dependency runtime type validation for TS/JS. 25x faster th
 
 - Native Typescript support with <strong>simple, human-readable inferred types</strong>
 - Easy-to-use declarative & functional API
-- [Structured error messages](#error-handling) that are easy to parse on both server & client
+- [Structured validation errors](#validation-results) that are easy to parse on both server & client
+- Returns validation errors as values, not exceptions to catch and handle
 - Works great both on the server and in the browser
 - Composable and extensible with custom predicates
 
